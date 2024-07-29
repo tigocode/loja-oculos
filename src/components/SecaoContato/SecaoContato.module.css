@@ -60,7 +60,7 @@
   background: #05031b;
   gap: 5px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 1024px ) and (max-width: 1440px) {
   .container_text {
     background-color: #05031b;
     border: none;
@@ -72,6 +72,10 @@
   }
   .container_content {
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: #05031b;
+    border: none;
   }
 }
