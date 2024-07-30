@@ -13,6 +13,7 @@
 .container_content h3, 
 .container_content span {
   background: #05031b;
+  border-color: #05031b;
 }
 .container_text h3 {
   padding-bottom: 15px;
@@ -67,6 +68,10 @@
   }
 }
 @media (min-width: 375px ) and (max-width: 767px) {
+  .container_text {
+    background-color: #05031b;
+    border: none;
+  }
   .container_text p {
     word-break: normal;
   }
